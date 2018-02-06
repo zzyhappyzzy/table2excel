@@ -1,0 +1,1344 @@
+<html>
+<head>
+  <script src="Blob.min.js"></script>
+  <script src="xlsx.core.min.js"></script>
+  <script src="FileSaver.min.js"></script>
+  <script src="tableexport.min.js"></script>
+</head>
+
+<body>
+  <table id="tableId" width="100%" border="1" cellpadding="0" cellspacing="0" bordercolor="#CCCCCC" style="border-collapse: collapse">
+      		<tbody><tr>
+			<!--<td bgcolor="#d00e09"><span class="STYLE1">分店编码</span></td>-->
+			<td bgcolor="#d00e09"><span class="STYLE1">分店名称</span></td>
+			<td bgcolor="#d00e09"><span class="STYLE1">分店地址</span></td>
+			<!--<td  bgcolor="#d00e09"><span class="STYLE1">火车票代购</span></td>
+			<td  bgcolor="#d00e09"><span class="STYLE1">广电收视费</span></td>
+			<td  bgcolor="#d00e09"><span class="STYLE1">川航积分</span></td>
+			<td  bgcolor="#d00e09"><span class="STYLE1">顺丰快递</span></td>-->
+			<td bgcolor="#d00e09"><span class="STYLE1">公交充值</span></td>
+			<td bgcolor="#d00e09"><span class="STYLE1">汽车客票代售</span></td>
+			<td bgcolor="#d00e09"><span class="STYLE1">拉卡拉</span></td>
+			<td bgcolor="#d00e09"><span class="STYLE1">邮政服务</span></td>
+
+			<td bgcolor="#d00e09"><span class="STYLE1">火车票代购</span></td>
+			<td bgcolor="#d00e09"><span class="STYLE1">川航积分兑换</span></td>
+			<td bgcolor="#d00e09"><span class="STYLE1">广电代收</span></td>
+			<td bgcolor="#d00e09"><span class="STYLE1">顺丰派(收)件</span></td>
+			<td bgcolor="#d00e09"><span class="STYLE1">苹果卡售卖</span></td>
+			<td bgcolor="#d00e09"><span class="STYLE1">电话</span></td>
+			</tr>
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=001" alert="点击看地图">解放北路分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市解放路一段96、98、100、102号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">83312293</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=002" alert="点击看地图">懋园分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市金牛区沙湾东一路10号附11-14号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">87645218</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=003" alert="点击看地图">科华北路分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市武侯区科华北路28号附1号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">85211372</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=007" alert="点击看地图">枣子巷分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市金牛区青羊东一路4号附4号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">87770578</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=008" alert="点击看地图">后沙湾分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市金牛区光荣北路86号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">87640828</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=010" alert="点击看地图">玉林东街11号分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市武侯区玉林东街16号附30号1栋1楼</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">85536720</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=011" alert="点击看地图">新鸿路40号分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市新鸿路36号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">84333741</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=012" alert="点击看地图">东城根中街分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市东城根中街9号附22号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">86139658</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=015" alert="点击看地图">实业街分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市青羊区实业街28号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">86248526</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=016" alert="点击看地图">芳草街45号分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都高新区芳草街45号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">85597707</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=017" alert="点击看地图">李家沱树蓓巷分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市李家沱树蓓巷1号6幢底楼</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">83311108</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=018" alert="点击看地图">肖家河分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都高新区肖家河街38号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">85161152</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=019" alert="点击看地图">九里堤中路分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市九里堤中路93-95号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">87613201</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=020" alert="点击看地图">石人北路分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市青羊区石人北路3-5号1楼</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">87317268</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=021" alert="点击看地图">大石西路分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市青羊区大石西路20号附5号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">87033108</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=022" alert="点击看地图">一环路西三段分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市金牛区一环路西三段213号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">87746416</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=023" alert="点击看地图">望平中街分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市成华区望平街118号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">84458643</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=026" alert="点击看地图">互助路分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市金牛区互助路8号附1号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">83378664</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=027" alert="点击看地图">交大路分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市金牛区交大路180号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">87616992</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=028" alert="点击看地图">经华北路分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市经华北路109-111号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">84458162</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=029" alert="点击看地图">万担仓分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市金牛区白马寺街2号附18号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">83181267</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=030" alert="点击看地图">132厂经一路分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市青羊区经一路181-191号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">87417146</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=031" alert="点击看地图">中央花园金雁分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市武侯区中央花园金雁大厦底楼</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">87420598</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=032" alert="点击看地图">清江中路分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市青羊区清江中路35号附44、45号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">87355069</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=033" alert="点击看地图">马鞍西路分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市金牛区马鞍西路15号27幢底层综合大楼</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">83316962</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=037" alert="点击看地图">双林巷分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市成华区一环路东三段106、108号一楼</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">84363272</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=038" alert="点击看地图">鼓楼北三街分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市青羊区鼓楼北三街3-5号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">86626862</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=039" alert="点击看地图">浆洗街分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市武侯区浆洗街36号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">85582411</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=050" alert="点击看地图">西安南路分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市金牛区西安南路120、122号</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:green;">否</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">87713176</div></td>
+				</tr>
+
+
+			<tr height="30">
+					<!--<td width="10%" class="bgcontent">-->
+
+					<!--</td>-->
+					<td width="22%" class="bgcontent">
+					<a href="hq_map.asp?area=allprt&amp;typeid=scwd&amp;fdno=052" alert="点击看地图">八里小区分场<img src="images/scwdimage/map.gif" border="0"></a>
+					</td>
+					<td width="28%" class="bgcontent">成都市八里小区新风路1号圣合苑底楼</td>
+
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<td width="5%" class="bgcontent"><div align="center" style="color:blue;">能</div></td>
+					<!--<td width="5%" class="bgcontent">
+          <div align="center" style="color:blue;">能</div>
+
+          <div align="center" style="color:green;">否</div>
+        </td>-->
+					<td width="5%" class="bgcontent">
+
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:green;">否</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+		<td width="5%" class="bgcontent">
+		<div align="center" style="color:blue;">能</div>
+		</td>
+					<td width="20%" class="bgcontent"><div align="center">83282959</div></td>
+				</tr>
+
+		</tbody>
+  </table>
+
+  <script>
+    TableExport(document.getElementsByTagName('table'));
+
+    // TableExport(document.getElementsByTagName("table"), {
+    //     headers: true,                              // (Boolean), display table headers (th or td elements) in the <thead>, (default: true)
+    //     footers: true,                              // (Boolean), display table footers (th or td elements) in the <tfoot>, (default: false)
+    //     formats: ['xlsx', 'csv', 'txt'],            // (String[]), filetype(s) for the export, (default: ['xlsx', 'csv', 'txt'])
+    //     filename: 'id',                             // (id, String), filename for the downloaded file, (default: 'id')
+    //     bootstrap: false,                           // (Boolean), style buttons using bootstrap, (default: true)
+    //     exportButtons: true,                        // (Boolean), automatically generate the built-in export buttons for each of the specified formats (default: true)
+    //     position: 'bottom',                         // (top, bottom), position of the caption element relative to table, (default: 'bottom')
+    //     ignoreRows: null,                           // (Number, Number[]), row indices to exclude from the exported file(s) (default: null)
+    //     ignoreCols: null,                           // (Number, Number[]), column indices to exclude from the exported file(s) (default: null)
+    //     trimWhitespace: true                        // (Boolean), remove all leading/trailing newlines, spaces, and tabs from cell text in the exported file(s) (default: false)
+    // });
+
+  </script>
+
+</body>
+
+</html>
