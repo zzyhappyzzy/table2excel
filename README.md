@@ -1,5 +1,5 @@
 # table转excel文件
-将web的table转为excel文件
+将web包含的table转为excel文件
 
 # 参考
 [https://github.com/clarketm/TableExport](https://github.com/clarketm/TableExport)
@@ -11,7 +11,7 @@
 直接修改`hongqi.html`文件即可
 
 # 注意
-1. http的header最好不做修改
+1. html文件的header最好不做修改
 ```html
 <head>
   <script src="Blob.min.js"></script>
